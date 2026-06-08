@@ -151,18 +151,18 @@ function renderCharts(maintenance, profile) {
     options: chartOptions('mi'),
   });
 
-  const spendByType = {};
+  const countByType = {};
   maintenance.forEach(m => {
     const key = m.type || 'Other';
-    spendByType[key] = (spendByType[key] || 0) + (m.cost || 0);
+    countByType[key] = (countByType[key] || 0) + 1;
   });
 
   new Chart(document.getElementById('spendChart'), {
     type: 'doughnut',
     data: {
-      labels: Object.keys(spendByType),
+      labels: Object.keys(countByType),
       datasets: [{
-        data: Object.values(spendByType),
+        data: Object.values(countByType),
         backgroundColor: ['#2f7eff', '#1659c5', '#5aa1ff', '#0f3a82', '#8fc1ff', '#103968'],
         borderColor: '#1c1f26',
         borderWidth: 2,
