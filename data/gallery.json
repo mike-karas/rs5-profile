@@ -1,1 +1,10 @@
-[]
+[
+  { "src": "assets/images/front-three-quarter.png", "caption": "Front three-quarter" },
+  { "src": "assets/images/side-profile.png", "caption": "Side profile" },
+  { "src": "assets/images/rear-three-quarter.png", "caption": "Rear three-quarter" },
+  { "src": "assets/images/rear.png", "caption": "Rear" },
+  { "src": "assets/images/front.png", "caption": "Front" },
+  { "src": "assets/images/headlight-detail.png", "caption": "Headlight detail" },
+  { "src": "assets/images/interior-dash.png", "caption": "Interior — dash & wheel" },
+  { "src": "assets/images/interior-side.png", "caption": "Interior — RS seats" }
+]
