@@ -1,0 +1,42 @@
+[
+  {
+    "owner": "Original owner (Quebec)",
+    "from": "2022-01-07",
+    "to": "2023-10-13",
+    "mileageStart": 0,
+    "mileageEnd": 26098,
+    "notes": "Inferred from Carfax: \"First owner reported\" in Quebec, Jan 2022. Serviced regularly at Audi Levis. (Inferred from Carfax)"
+  },
+  {
+    "owner": "Second owner (Quebec, registered as commercial vehicle)",
+    "from": "2023-10-13",
+    "to": "2024-12-02",
+    "mileageStart": 26098,
+    "mileageEnd": 40594,
+    "notes": "Inferred from Carfax: \"New owner reported\" in Quebec, Oct 2023; vehicle registered as a commercial vehicle through early 2024. Serviced at Audi Ste-Foy. Re-registered in Ontario in Dec 2024 (still same owner per Carfax, prior registration noted as Quebec). (Inferred from Carfax)"
+  },
+  {
+    "owner": "Dealer (Arkansas)",
+    "from": "2024-12-10",
+    "to": "2025-02-11",
+    "mileageStart": 40606,
+    "mileageEnd": null,
+    "notes": "Inferred from Carfax: \"Vehicle purchase reported\" / \"Dealer took title of this vehicle while it was in inventory,\" Arkansas Motor Vehicle Dept., Dec 2024. Brief dealer-inventory ownership before resale. (Inferred from Carfax)"
+  },
+  {
+    "owner": "Third owner (Georgia)",
+    "from": "2025-02-11",
+    "to": "2025-07-24",
+    "mileageStart": null,
+    "mileageEnd": 40945,
+    "notes": "Inferred from Carfax: \"New owner reported,\" Georgia Motor Vehicle Dept., Feb 2025. Serviced/inspected at ALM Marietta and Audi Atlanta before resale. (Inferred from Carfax)"
+  },
+  {
+    "owner": "Me",
+    "from": "2025-06-09",
+    "to": null,
+    "mileageStart": 45537,
+    "mileageEnd": null,
+    "notes": "Took delivery on 6/9/2025 at 45,537 mi. North Carolina registration recorded by Carfax on 7/24/2025 (processing lag behind actual delivery date)."
+  }
+]

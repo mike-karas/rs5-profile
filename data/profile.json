@@ -1,0 +1,12 @@
+{
+  "nickname": "",
+  "year": 2022,
+  "make": "Audi",
+  "model": "RS5",
+  "trim": "Coupe",
+  "color": "Turbo Blue",
+  "vin": "WUABWCF55NA900540",
+  "currentMileage": 50300,
+  "mileageAsOf": "2025-10-31",
+  "heroImage": "assets/images/hero.jpg"
+}

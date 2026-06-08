@@ -1,0 +1,164 @@
+[
+  {
+    "date": "2022-01-04",
+    "mileage": null,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Levis",
+    "notes": "Floor mats replaced. (Source: Carfax)"
+  },
+  {
+    "date": "2022-04-28",
+    "mileage": 3676,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Levis",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2022-09-01",
+    "mileage": 10063,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Levis",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2022-11-10",
+    "mileage": 12961,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Levis",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2023-04-03",
+    "mileage": 18317,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Levis",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2023-11-09",
+    "mileage": 27464,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Levis",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2023-11-21",
+    "mileage": 27734,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Ste-Foy",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2024-04-22",
+    "mileage": 32774,
+    "type": "Tires",
+    "title": "Service + tire replacement",
+    "cost": null,
+    "shop": "Audi Ste-Foy",
+    "notes": "Tire(s) replaced; vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2024-08-06",
+    "mileage": 37255,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Ste-Foy",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2024-09-11",
+    "mileage": 38219,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Ste-Foy",
+    "notes": "(Source: Carfax)"
+  },
+  {
+    "date": "2024-10-02",
+    "mileage": 38221,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Ste-Foy",
+    "notes": "(Source: Carfax)"
+  },
+  {
+    "date": "2024-11-12",
+    "mileage": 38525,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "Audi Ste-Foy",
+    "notes": "(Source: Carfax)"
+  },
+  {
+    "date": "2025-01-11",
+    "mileage": null,
+    "type": "Inspection",
+    "title": "Pre-delivery & maintenance inspection",
+    "cost": null,
+    "shop": "ALM Marietta",
+    "notes": "Pre-delivery inspection completed; maintenance inspection completed; vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2025-01-17",
+    "mileage": 40621,
+    "type": "Inspection",
+    "title": "Passed emissions inspection",
+    "cost": null,
+    "shop": "Georgia",
+    "notes": "(Source: Carfax)"
+  },
+  {
+    "date": "2025-01-20",
+    "mileage": null,
+    "type": "Service",
+    "title": "Vehicle serviced",
+    "cost": null,
+    "shop": "ALM Marietta",
+    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+  },
+  {
+    "date": "2025-01-23",
+    "mileage": 40945,
+    "type": "Service",
+    "title": "Maintenance inspection & service",
+    "cost": null,
+    "shop": "Audi Atlanta",
+    "notes": "Maintenance inspection completed; air filter replaced; brake fluid flushed/changed; oil and filter changed. (Source: Carfax)"
+  },
+  {
+    "date": "2025-06-09",
+    "mileage": 45537,
+    "type": "Delivery",
+    "title": "Took delivery",
+    "cost": 0,
+    "shop": "",
+    "notes": ""
+  },
+  {
+    "date": "2025-10-31",
+    "mileage": 50300,
+    "type": "Oil Change",
+    "title": "Oil and filter changed",
+    "cost": null,
+    "shop": "Audi Northlake",
+    "notes": "(Source: Carfax)"
+  }
+]
