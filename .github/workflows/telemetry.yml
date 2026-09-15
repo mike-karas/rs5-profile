@@ -1,0 +1,55 @@
+name: Pull telemetry from Smartcar
+
+on:
+  schedule:
+    - cron: '17 12 * * 1'   # Mondays 12:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telemetry
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch readings
+        id: fetch
+        env:
+          SMARTCAR_CLIENT_ID: ${{ secrets.SMARTCAR_CLIENT_ID }}
+          SMARTCAR_CLIENT_SECRET: ${{ secrets.SMARTCAR_CLIENT_SECRET }}
+          SMARTCAR_REFRESH_TOKEN: ${{ secrets.SMARTCAR_REFRESH_TOKEN }}
+          SMARTCAR_VEHICLE_ID: ${{ secrets.SMARTCAR_VEHICLE_ID }}
+          NEW_REFRESH_TOKEN_FILE: ${{ runner.temp }}/refresh_token
+        run: |
+          node scripts/fetch-telemetry.mjs
+          if [ -s "$NEW_REFRESH_TOKEN_FILE" ]; then echo "rotated=true" >> "$GITHUB_OUTPUT"; fi
+
+      # Smartcar rotates the refresh token on every use, so store the new one.
+      # Needs a fine-grained PAT with "Secrets: write" on this repo.
+      - name: Rotate refresh token secret
+        if: steps.fetch.outputs.rotated == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.SMARTCAR_SECRETS_PAT }}
+        run: gh secret set SMARTCAR_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" < "$RUNNER_TEMP/refresh_token"
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/telemetry.json data/profile.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Telemetry: weekly Smartcar reading $(date -u +%F)"
+            git push
+          fi

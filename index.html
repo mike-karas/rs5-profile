@@ -10,6 +10,7 @@
 </head>
 <body>
   <header class="hero">
+    <img class="hero-bg" id="hero-bg" alt="" aria-hidden="true">
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <p class="eyebrow">Living Record</p>
@@ -43,6 +44,14 @@
           <h2>Quick Facts</h2>
           <dl class="fact-list" id="quick-facts"></dl>
         </div>
+        <div class="card">
+          <h2>Safety Recalls <span class="source-note">NHTSA</span></h2>
+          <div id="recalls"><p class="empty-state">Checking NHTSA&hellip;</p></div>
+        </div>
+        <div class="card">
+          <h2>Latest Telemetry <span class="source-note">Smartcar</span></h2>
+          <div id="telemetry"></div>
+        </div>
       </div>
     </section>
 
@@ -55,7 +64,7 @@
       <h2 class="section-title">Maintenance &amp; Service Log</h2>
       <table class="record-table" id="maintenance-table">
         <thead>
-          <tr><th>Date</th><th>Mileage</th><th>Type</th><th>Description</th><th>Shop</th><th>Cost</th></tr>
+          <tr><th>Date</th><th>Mileage</th><th>Type</th><th>Description</th><th>Shop</th><th>Cost</th><th>Source</th></tr>
         </thead>
         <tbody></tbody>
       </table>
@@ -87,7 +96,7 @@
     <p>A living record, maintained on GitHub.</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
