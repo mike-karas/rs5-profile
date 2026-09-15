@@ -8,5 +8,10 @@
   "vin": "WUABWCF55NA900540",
   "currentMileage": 50300,
   "mileageAsOf": "2025-10-31",
-  "heroImage": "assets/images/hero.jpg"
+  "heroImage": "assets/images/front-three-quarter.png",
+  "nhtsa": {
+    "make": "audi",
+    "model": "rs5",
+    "completedCampaigns": []
+  }
 }

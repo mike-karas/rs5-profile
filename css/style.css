@@ -243,3 +243,61 @@ footer {
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
 }
+
+/* Hero photo */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  opacity: 0.35;
+  display: none;
+}
+.hero-bg[src] { display: block; }
+
+/* Source badges + card notes */
+.source-note {
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-left: 0.5rem;
+}
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.badge-carfax { border-color: rgba(47,126,255,0.5); color: var(--turbo-blue-bright); }
+.badge-owner { border-color: rgba(120, 200, 140, 0.5); color: #8fd8a5; }
+.badge-smartcar { border-color: rgba(255, 190, 90, 0.5); color: #ffc46b; }
+.badge-open { border-color: rgba(255, 110, 110, 0.6); color: #ff8080; }
+.badge-done { border-color: rgba(120, 200, 140, 0.5); color: #8fd8a5; }
+
+/* Recalls */
+.recall-summary { color: var(--text-dim); margin-bottom: 0.75rem; }
+.recall { border-top: 1px solid var(--border); padding: 0.75rem 0; }
+.recall:last-child { padding-bottom: 0; }
+.recall-head { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.recall-head strong { font-size: 0.95rem; }
+.recall-meta { color: var(--text-dim); font-size: 0.8rem; margin: 0.15rem 0 0.4rem; }
+.recall details summary { cursor: pointer; color: var(--turbo-blue-bright); font-size: 0.85rem; }
+.recall details p { font-size: 0.9rem; margin-top: 0.4rem; }
+.recall details p + p { margin-top: 0.3rem; }
+
+/* Telemetry */
+.telemetry-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.6rem 1rem; }
+.telemetry-grid .label { color: var(--text-dim); font-size: 0.8rem; }
+.telemetry-grid .value { font-weight: 600; font-size: 1.05rem; }
+.telemetry-foot { color: var(--text-dim); font-size: 0.8rem; margin-top: 0.75rem; }
+.tire-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem 0.6rem; font-size: 0.9rem; }

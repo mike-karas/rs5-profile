@@ -6,7 +6,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Levis",
-    "notes": "Floor mats replaced. (Source: Carfax)"
+    "notes": "Floor mats replaced.",
+    "source": "carfax"
   },
   {
     "date": "2022-04-28",
@@ -15,7 +16,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Levis",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2022-09-01",
@@ -24,7 +26,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Levis",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2022-11-10",
@@ -33,7 +36,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Levis",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2023-04-03",
@@ -42,7 +46,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Levis",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2023-11-09",
@@ -51,7 +56,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Levis",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2023-11-21",
@@ -60,7 +66,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Ste-Foy",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2024-04-22",
@@ -69,7 +76,8 @@
     "title": "Service + tire replacement",
     "cost": null,
     "shop": "Audi Ste-Foy",
-    "notes": "Tire(s) replaced; vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Tire(s) replaced; vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2024-08-06",
@@ -78,7 +86,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Ste-Foy",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2024-09-11",
@@ -87,7 +96,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Ste-Foy",
-    "notes": "(Source: Carfax)"
+    "notes": "",
+    "source": "carfax"
   },
   {
     "date": "2024-10-02",
@@ -96,7 +106,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Ste-Foy",
-    "notes": "(Source: Carfax)"
+    "notes": "",
+    "source": "carfax"
   },
   {
     "date": "2024-11-12",
@@ -105,7 +116,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "Audi Ste-Foy",
-    "notes": "(Source: Carfax)"
+    "notes": "",
+    "source": "carfax"
   },
   {
     "date": "2025-01-11",
@@ -114,7 +126,8 @@
     "title": "Pre-delivery & maintenance inspection",
     "cost": null,
     "shop": "ALM Marietta",
-    "notes": "Pre-delivery inspection completed; maintenance inspection completed; vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Pre-delivery inspection completed; maintenance inspection completed; vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2025-01-17",
@@ -123,7 +136,8 @@
     "title": "Passed emissions inspection",
     "cost": null,
     "shop": "Georgia",
-    "notes": "(Source: Carfax)"
+    "notes": "",
+    "source": "carfax"
   },
   {
     "date": "2025-01-20",
@@ -132,7 +146,8 @@
     "title": "Vehicle serviced",
     "cost": null,
     "shop": "ALM Marietta",
-    "notes": "Vehicle washed/detailed. (Source: Carfax)"
+    "notes": "Vehicle washed/detailed.",
+    "source": "carfax"
   },
   {
     "date": "2025-01-23",
@@ -141,7 +156,8 @@
     "title": "Maintenance inspection & service",
     "cost": null,
     "shop": "Audi Atlanta",
-    "notes": "Maintenance inspection completed; air filter replaced; brake fluid flushed/changed; oil and filter changed. (Source: Carfax)"
+    "notes": "Maintenance inspection completed; air filter replaced; brake fluid flushed/changed; oil and filter changed.",
+    "source": "carfax"
   },
   {
     "date": "2025-06-09",
@@ -150,7 +166,8 @@
     "title": "Took delivery",
     "cost": 0,
     "shop": "",
-    "notes": ""
+    "notes": "",
+    "source": "owner"
   },
   {
     "date": "2025-10-31",
@@ -159,6 +176,7 @@
     "title": "Oil and filter changed",
     "cost": null,
     "shop": "Audi Northlake",
-    "notes": "(Source: Carfax)"
+    "notes": "",
+    "source": "carfax"
   }
 ]
