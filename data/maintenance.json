@@ -178,5 +178,15 @@
     "shop": "Audi Northlake",
     "notes": "",
     "source": "carfax"
+  },
+  {
+    "date": "2026-11-05",
+    "mileage": 58410,
+    "type": "Oil Change",
+    "title": "Annual oil service, cabin filter, inspection",
+    "cost": 312.10,
+    "shop": "Audi Northlake",
+    "notes": "Engine oil and filter changed (0W-40, 8.5 qt) and cabin air filter replaced. Multi-point inspection: front brake pads 7 mm, rear 6 mm, tire tread 6/32 on all four, battery test passed at 12.5 V. Brake fluid flush recommended by January 2027.",
+    "source": "dealer"
   }
 ]
