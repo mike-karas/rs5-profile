@@ -102,7 +102,7 @@ function renderMaintenance(maintenance) {
 
 function sourceBadge(source) {
   if (!source) return '—';
-  const labels = { carfax: 'Carfax', owner: 'Owner', smartcar: 'Smartcar', manual: 'Manual' };
+  const labels = { carfax: 'Carfax', owner: 'Owner', manual: 'Manual' };
   return `<span class="badge badge-${source}">${labels[source] || source}</span>`;
 }
 
@@ -197,12 +197,10 @@ function renderCharts(maintenance, telemetry) {
 function renderTelemetry(telemetry) {
   const el = document.getElementById('telemetry');
   const latest = [...telemetry]
-    .filter(t => t.source === 'smartcar')
     .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
 
   if (!latest) {
-    el.innerHTML = `<p class="empty-state">No automatic readings yet. Connect the car through Smartcar and the weekly
-      workflow will start appending rows to <code>data/telemetry.json</code>. See the README for setup.</p>`;
+    el.innerHTML = `<p class="empty-state">No readings yet. Add a row to <code>data/telemetry.json</code>.</p>`;
     return;
   }
 

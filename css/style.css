@@ -280,7 +280,6 @@ footer {
 }
 .badge-carfax { border-color: rgba(47,126,255,0.5); color: var(--turbo-blue-bright); }
 .badge-owner { border-color: rgba(120, 200, 140, 0.5); color: #8fd8a5; }
-.badge-smartcar { border-color: rgba(255, 190, 90, 0.5); color: #ffc46b; }
 .badge-open { border-color: rgba(255, 110, 110, 0.6); color: #ff8080; }
 .badge-done { border-color: rgba(120, 200, 140, 0.5); color: #8fd8a5; }
 
